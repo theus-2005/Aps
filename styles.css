@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    width: 99%;
+    background-color: gray;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px; /* Adiciona espaço entre as imagens */
+}
+
+img {
+    width: 300px; /* Tamanho das imagens */
+    border-radius: 50%; /* Torna as imagens redondas */
+}
+
+.image-title {
+    margin-top: 10px; /* Espaço entre a imagem e o título */
+}
